@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Cronos 35 | El Manifiesto de la Eternidad</title>
+    <title>PROYECTO CRONOS 35 | El Códice de la Eternidad</title>
     <style>
         :root {
             --primary: #00d4ff;
             --secondary: #0055ff;
-            --bg: #0a0b10;
-            --text: #e0e0e0;
-            --card: #161b22;
+            --bg: #05070a;
+            --card: #0d1117;
+            --text: #e6edf3;
             --accent: #30363d;
-            --warning: #ff4500;
+            --success: #00ff88;
+            --warning: #f85149;
         }
         body {
-            font-family: 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg);
             color: var(--text);
             line-height: 1.8;
@@ -23,96 +24,129 @@
             padding: 0;
         }
         header {
-            background: linear-gradient(135deg, #001f3f, var(--bg));
-            padding: 4rem 1rem;
+            background: linear-gradient(180deg, #001f3f 0%, var(--bg) 100%);
+            padding: 6rem 1rem;
             text-align: center;
-            border-bottom: 2px solid var(--primary);
+            border-bottom: 3px solid var(--secondary);
         }
-        h1 { margin: 0; font-size: 2.5rem; color: var(--primary); letter-spacing: 2px; }
-        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        h1 { margin: 0; font-size: 2.5rem; color: var(--primary); letter-spacing: 4px; text-transform: uppercase; }
+        .tagline { color: var(--secondary); font-size: 1.1rem; margin-top: 15px; font-weight: 300; letter-spacing: 1px; }
+        
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
         
         section {
             background: var(--card);
-            padding: 2rem;
+            padding: 2.5rem;
             border-radius: 20px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+            margin-bottom: 4rem;
             border: 1px solid var(--accent);
-            margin-bottom: 3rem;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
         }
-        h2 { color: var(--primary); border-bottom: 1px solid var(--accent); padding-bottom: 1rem; font-size: 1.8rem; }
-        h3 { color: var(--secondary); margin-top: 1.5rem; }
         
-        .highlight-box {
+        h2 { color: var(--primary); font-size: 2rem; border-bottom: 1px solid var(--accent); padding-bottom: 1rem; margin-top: 0; }
+        h3 { color: var(--success); margin-top: 2rem; font-size: 1.4rem; }
+
+        .theory-box {
             background: rgba(0, 212, 255, 0.05);
-            border-left: 5px solid var(--primary);
-            padding: 1.2rem;
+            border-left: 4px solid var(--primary);
+            padding: 1.5rem;
             margin: 1.5rem 0;
+            border-radius: 0 15px 15px 0;
         }
 
-        .warning-box {
-            background: rgba(255, 69, 0, 0.05);
-            border-left: 5px solid var(--warning);
-            padding: 1.2rem;
-            margin: 1.5rem 0;
+        .solution-highlight {
+            background: rgba(0, 255, 136, 0.07);
+            border: 1px solid var(--success);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2.5rem 0;
         }
 
-        footer { text-align: center; padding: 2rem; color: #6e7681; font-size: 0.8rem; border-top: 1px solid var(--accent); }
+        .warning-zone {
+            border: 1px solid var(--warning);
+            padding: 1.5rem;
+            border-radius: 10px;
+            background: rgba(248, 81, 73, 0.05);
+            margin: 2rem 0;
+        }
+
+        ul { padding-left: 1.2rem; }
+        li { margin-bottom: 0.8rem; }
+        strong { color: var(--primary); }
+
+        footer { text-align: center; padding: 5rem 1rem; color: #7d8590; font-size: 0.9rem; border-top: 1px solid var(--accent); }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            section { padding: 1.8rem; }
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>PROYECTO: CRONOS 35</h1>
-    <p>Bitácora de Estabilidad, Control y Evolución</p>
+    <h1>PROYECTO CRONOS 35</h1>
+    <div class="tagline">Bitácora Maestra: Del Origen Celular a la Civilización Eterna</div>
 </header>
 
 <div class="container">
 
     <section>
-        <h2>01. La Paradoja del Observador Efímero</h2>
-        <p>Proponemos el <strong>Punto de Congelación 35</strong>: detener el reloj en el pico de plasticidad neuronal y vigor físico.</p>
-        <div class="highlight-box">
-            <p>Con científicos de 300 años, problemas como la Gravedad Cuántica dejan de ser acertijos generacionales. No alargamos la vida para consumir, sino para <strong>comprender</strong>.</p>
+        <h2>I. El Enigma de la Obsolescencia</h2>
+        <p>¿Por qué morimos? Nuestra investigación inicial reveló que el envejecimiento no es un accidente, sino un sistema programado. Identificamos las dos fuerzas en conflicto:</p>
+        
+        <div class="theory-box">
+            <p><strong>La Teoría del Mantenimiento (Entropía):</strong> El cuerpo como una estructura que acumula desechos biológicos. Sin un equipo de limpieza, la "casa" colapsa.</p>
+            <p><strong>La Teoría de la Copia Celular:</strong> Las células se multiplican sin cesar, pero cada copia pierde fidelidad debido al acortamiento de los <strong>telómeros</strong>. Estamos programados para que la fotocopia falle.</p>
         </div>
+        
+        <h3>El Interruptor de la Muerte</h3>
+        <p>Descubrimos que al llegar a los 35 años, el cuerpo emite una señal química de <strong>Senescencia</strong>. Las células dejan de ser funcionales para "dejar espacio" a la siguiente generación. La inmortalidad comienza hackeando esta señal de autodestrucción.</p>
     </section>
 
-    <section>
-        <h2>02. El Árbitro IA: Controlando a los Eternos</h2>
-        <p>Un tirano con 500 años de experiencia sería invencible. Por ello, el sistema requiere un <strong>Árbitro IA Imparcial</strong>.</p>
+    <section class="solution-highlight">
+        <h2>II. La Solución: Unidad UR-35</h2>
+        <p>La estabilidad biológica no es una cura mágica, es ingeniería constante. La <strong>Célula de Rejuvenecimiento (UR-35)</strong> es la solución física que implementa:</p>
+        
         <ul>
-            <li><strong>Vigilancia Cognitiva:</strong> Análisis de ego obligatorio por la IA para líderes.</li>
-            <li><strong>Rotación Obligatoria:</strong> La eternidad personal no otorga propiedad sobre el destino común.</li>
+            <li><strong>Recalibración Epigenética:</strong> Un "reset" periódico que devuelve la expresión genética de cada célula a su estado óptimo de los 35 años.</li>
+            <li><strong>Mantenimiento de Telómeros:</strong> Reactivación enzimática controlada para asegurar que la división celular sea infinita y perfecta.</li>
+            <li><strong>Nanobots de Limpieza:</strong> Eliminación de proteínas mal plegadas y residuos metabólicos (Entropía Cero).</li>
         </ul>
-        <div class="warning-box">
-            <strong>Regla de Oro:</strong> Ningún individuo puede acumular recursos que asfixien el crecimiento de los nuevos integrantes.
+    </section>
+
+    <section>
+        <h2>III. La Paradoja del Observador</h2>
+        <p>¿Por qué detenernos a los 35 años? Porque es el punto donde el cerebro alcanza su <strong>máxima plasticidad acumulativa</strong>. </p>
+        <p>Un humano que vive 80 años apenas tiene 40 años de utilidad científica real. Un "Eterno" con 300 años de estabilidad puede resolver misterios como la <strong>Gravedad Cuántica</strong> o la <strong>Materia Oscura</strong>, problemas que requieren una vida entera de obsesión sin degradación neuronal.</p>
+    </section>
+
+    <section>
+        <h2>IV. El Gran Intercambio</h2>
+        <p>Para que la especie no asfixie al planeta, el acceso a la eternidad nace de un contrato sagrado de equilibrio:</p>
+        <div class="theory-box" style="border-left-color: var(--secondary);">
+            <p><strong>Vía Alfa (El Linaje):</strong> El camino tradicional. Reproducción, crianza y ciclo vital natural.</p>
+            <p><strong>Vía Omega (La Eternidad):</strong> Longevidad estable a los 35 años a cambio de la renuncia reproductiva. Individuos convertidos en bibliotecas vivientes.</p>
         </div>
     </section>
 
     <section>
-        <h2>03. El Dilema del Equilibrio: ¿Hijos o Siglos?</h2>
-        <p>Para evitar la sobrepoblación, el contrato es claro:</p>
-        <div class="highlight-box">
-            <p><strong>Opción A (Linaje):</strong> El ciclo natural de procreación y muerte.</p>
-            <p><strong>Opción B (Eternidad):</strong> Rejuvenecimiento celular a cambio de la renuncia reproductiva.</p>
+        <h2>V. El Árbitro IA y la Vacante</h2>
+        <div class="warning-zone">
+            <p><strong>Peligro:</strong> El riesgo de una gerontocracia tiránica donde los poderosos vivan para siempre oprimiendo al resto.</p>
         </div>
-    </section>
-
-    <section>
-        <h2>04. El Protocolo de Vacante: La Reposición</h2>
-        <p>¿Qué ocurre si un "Eterno" muere por accidente? <strong>¿Quién ocupa su lugar?</strong></p>
-        <h3>Reposición por Mérito</h3>
-        <p>La <strong>IA Central</strong> elige al sucesor basándose en:</p>
+        <p>Una <strong>IA Imparcial</strong> monitoriza a los líderes, obligando a la rotación de poder. Si un Eterno muere por accidente, se activa el <strong>Protocolo de Reposición</strong>:</p>
         <ul>
-            <li><strong>Contribución al Conocimiento:</strong> Mentes que aportan piezas clave a la humanidad.</li>
-            <li><strong>Equilibrio de Habilidades:</strong> Mantener la estabilidad del sistema técnico-social.</li>
-            <li><strong>Sorteo de Base:</strong> Un porcentaje de plazas para la población general, evitando élites cerradas.</li>
+            <li><strong>Mérito Evolutivo:</strong> La plaza se otorga a mentes capaces de expandir el conocimiento humano.</li>
+            <li><strong>Cuota Democrática:</strong> Sorteo para garantizar que la Vía Omega no sea una casta cerrada.</li>
         </ul>
     </section>
 
 </div>
 
 <footer>
-    <p>&copy; 2026 - Reflexiones sobre el Futuro Humano | Proyecto Cronos 35</p>
+    <p>PROYECTO CRONOS 35 | Registro Completo de Estabilización Biológica</p>
+    <p>&copy; 2026 - Desde la Entropía hasta la Eternidad Dirigida</p>
 </footer>
 
 </body>
